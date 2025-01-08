@@ -1,0 +1,65 @@
+html {
+    background-color: #f1f5f9;
+    font-family: 'Poppins';
+  }
+  
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+/* nav styles */
+.school-logo {
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+}
+
+.main-header {
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+  
+  .main-header a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .main-header a:hover,
+  .main-header a:focus {
+    background-color: #ff9776;
+  }
+  
+  .expanded {
+    display: unset;
+  }
+  
+  @media screen and (min-width: 636px) {
+    .main-header {
+      margin-left: 5em;
+      display: block;
+      position: static;
+      width: auto;
+      background: none;
+    }
+  
+    .main-header a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+  
+  }
