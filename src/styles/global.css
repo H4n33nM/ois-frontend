@@ -20,7 +20,7 @@ html {
 .main-header {
     width: 100vw;
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 0px;
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -41,11 +41,68 @@ html {
     color: #01ACFE;
   }
 
-  .school-logo {
-    text-align: center;
+
+#ataa-logo {
+  position: relative;
+  bottom: 20px;
+  left: 910px;
 }
 
-img {
-    width: 120px;
+#ois-logo {
+    width: 100px;
     padding-top: 15px;
+    position: relative;
+    right: 80px;
+}
+
+.main-header p {
+font-weight: 700;
+font-size: 22px;
+}
+
+/*header 2*/
+.contact-header {
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #F84352;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact-header i {
+  position: relative;
+  top: 12px;
+  font-size: 18px;
+}
+
+.phone-num {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.mail {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.contact-header .phone-num p,
+.contact-header .mail p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.phone-num,
+.mail {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
