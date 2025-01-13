@@ -28,10 +28,10 @@ html {
   }
 
   .main-header a {
-    display: inline-flex; /* Makes the link's content a flex container */
-    align-items: center; /* Vertically aligns the image and text */
-    gap: 15px; /* Adds space between the image and text */
-    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px;
     margin: 0 50px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -44,9 +44,9 @@ html {
   }
 
   .main-header a img {
-    width: 30px; /* Adjust size of the icons */
+    width: 30px;
     height: 30px;
-    object-fit: contain; /* Ensures the images maintain their aspect ratio */
+    object-fit: contain;
   }
 
 
@@ -113,4 +113,11 @@ font-size: 22px;
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+/*body*/
+.body-container {
+  position: absolute;
+  left: 40px;
+  top: 626px;
 }
