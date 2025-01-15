@@ -129,6 +129,7 @@ footer {
   gap: 1rem;
   margin-top: 2rem;
   width: 100vw;
+  height: 550px;
   box-sizing: border-box;
   position: absolute;
   bottom: 0;
@@ -138,8 +139,46 @@ footer {
 }
 
 footer p {
-  line-height: 48px;
+  line-height: 0.7;
   font-size: 32px;
   color: #ffffff;
   text-align: center;
+} 
+
+.socials {
+  margin: 100px
+}
+
+.school-info {
+  position: absolute;
+  left: 1450px;
+  padding: 0px 25px;
+}
+
+.school-info img {
+  width: 35px;
+  margin-right: 15px;
+  padding-top: 5px;
+}
+
+#title {
+  line-height: 0.7;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: left;
+  
+}
+
+#description {
+  font-size: 19px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#credits {
+  position: absolute;
+  left: 30px;
+  font-size: 20px;
+  text-align: right;
+  line-height: 49;
 } 
