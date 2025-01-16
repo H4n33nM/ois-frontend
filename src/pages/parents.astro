@@ -1,20 +1,9 @@
 ---
-import "../styles/global.css";
-import Header1 from "../components/Header1.astro";
-import Header2 from "../components/Header2.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-
-<html lang="en">
-  <head>
-    <title>Astro</title>
-  </head>
-  <body>
-    <Header2 />
-    <Header1 />
-    <div class="body-container">
-      <h1>Parents</h1>
-    </div>
-  </body>
-</html>
+<BaseLayout>
+  <h1>Students</h1>
+  <p>hi! just checking if the layout is working one last time</p>
+  <p>this is the parents page</p>
+</BaseLayout>
