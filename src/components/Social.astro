@@ -1,0 +1,37 @@
+---
+interface SocialProps {
+  platform: "x" | "facebook" | "instagram";
+  username: string;
+}
+
+const { platform, username } = Astro.props as SocialProps;
+
+const platformIcons = {
+  x: "/src/images/TwitterX.svg",
+  facebook: "/src/images/Facebook.svg",
+  instagram: "/src/images/Instagram.svg",
+};
+
+const iconSrc = platformIcons[platform] || "/src/images/QuestionMark.png";
+---
+
+<a href={`https://www.${platform}.com/${username}`} class="social-link">
+  <img src={iconSrc} alt={`${platform} icon`} class="social-icon" />
+</a>
+
+<style>
+  .social-link {
+    text-decoration: none;
+  }
+
+  .social-icon {
+    object-fit: contain;
+    transition:
+      fill 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  .social-link:hover .social-icon {
+    transform: scale(1.2);
+  }
+</style>

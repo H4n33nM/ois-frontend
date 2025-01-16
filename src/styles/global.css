@@ -16,7 +16,6 @@ html {
     box-sizing: border-box;
   }
   
-
 /* header 1 */
 .main-header {
     width: 100vw;
@@ -73,7 +72,8 @@ font-size: 22px;
 .contact-header {
   width: 100vw;
   height: 50px;
-  position: absolute;
+  position: fixed;
+  z-index: 1000;
   top: 0px;
   left: 0px;
   background-color: #F84352;
@@ -89,13 +89,13 @@ font-size: 22px;
 
 .phone-num {
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 10px;
 }
 
 .mail {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 10px;
 }
 
@@ -129,13 +129,13 @@ footer {
   gap: 1rem;
   margin-top: 2rem;
   width: 100vw;
-  height: 550px;
+  height: 475px;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color: #F84352;
-  padding: 1rem;
+  padding: 10px;
 }
 
 footer p {
@@ -148,6 +148,15 @@ footer p {
 .socials {
   margin: 100px
 }
+
+.socials p {
+  text-align: left;
+}
+
+#credits {
+  font-size: 16px;
+}
+
 
 .school-info {
   position: absolute;
@@ -174,11 +183,3 @@ footer p {
   text-align: justify;
   line-height: 1.5;
 }
-
-#credits {
-  position: absolute;
-  left: 30px;
-  font-size: 20px;
-  text-align: right;
-  line-height: 49;
-} 
