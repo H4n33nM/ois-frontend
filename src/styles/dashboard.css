@@ -1,0 +1,19 @@
+/* announcements
+
+position: absolute;
+width: 633px;
+height: 536px;
+left: 40px;
+top: 626px; */
+
+.announcements {
+    color: #ffffff;
+    background-color: blue;
+}
+
+.calendar {
+    position: relative;
+    bottom: 116px;
+    left: 1070px;
+    background-color: aqua;
+}
