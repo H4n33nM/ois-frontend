@@ -1,0 +1,38 @@
+/*OIS HISTORY*/
+#ph1 {
+    position: absolute;
+    left: 1300px;
+    top: 380px;
+    width: 516.25px;
+    height: 505px;
+}
+
+#ph2 {
+    position: absolute;
+    left: 150px;
+    top: 1010px;
+    width: 1580px;
+    height: 180px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+.about-text {
+    width: 140%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#p34 {
+    width: 155%;
+}
+
+#p567 {
+    width: 155%;
+    margin-bottom: 30px;
+}
+
+/*COMMUNITY*/
