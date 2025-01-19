@@ -36,3 +36,18 @@ h1 {
 }
 
 /*COMMUNITY*/
+#community {
+    text-align: justify;
+    font-size: 18px;
+    width: 170%;
+}
+
+.event-photos {
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+#event-name {
+    text-align: center;
+}
