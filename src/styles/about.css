@@ -51,3 +51,38 @@ h1 {
 #event-name {
     text-align: center;
 }
+
+/*VISION AND MISSION*/
+.v-and-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .v-and-m ul, h2, h3 {
+    text-align: left;
+    line-height: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .v-and-m img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .v-and-m h1 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .v-and-m p, .v-and-m ul, .v-and-m li {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 800px;
+  }
