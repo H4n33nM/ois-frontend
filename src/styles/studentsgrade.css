@@ -17,18 +17,19 @@ h1 {
     font-size: 30px;
 }
 
-.sidenav {
-    background-color: #111;
+  /*DROPDOWN MENU GIRLS*/
+.sidenav-g {
+    background-color: #FFCDEB;
     width: 415px;
     overflow-x: hidden;
     margin-bottom: 25px;
   }
 
-  .sidenav a, .dropdown-btn {
+  .sidenav-g a, .dropdown-btn-g {
     padding: 16px;
     text-decoration: none;
     font-size: 22px;
-    color: #818181;
+    color: #FF71C7;
     display: block;
     border: none;
     background: none;
@@ -38,17 +39,64 @@ h1 {
     outline: none;
   }
 
-  .sidenav a:hover {
+  .sidenav-g a:hover {
     color: #f1f1f1;
-    background-color: #b48282;
+    background-color: #F84352;
   }
 
-  .active {
-    background-color: green;
+  .activeg {
+    background-color: #FF71C7;
     color: white;
   }
 
   .dropdown-container {
     display: none;
-    background-color: #262626;
+    background-color: #FFC0C5;
   }
+
+  .dropdown-container a {
+    font-size: 20px;
+    color: #F84352;
+  }
+
+  /*DROPDOWN MENU BOYS*/
+.sidenav-b {
+  background-color: #CDEAFF;
+  width: 415px;
+  overflow-x: hidden;
+  margin-bottom: 25px;
+}
+
+.sidenav-b a, .dropdown-btn-b {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #71B0FF;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav-b a:hover {
+  color: #f1f1f1;
+  background-color: #F84352;
+}
+
+.activeb {
+  background-color: #71B0FF;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #FFC0C5;
+}
+
+.dropdown-container a {
+  font-size: 20px;
+  color: #F84352;
+}
