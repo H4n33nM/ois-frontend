@@ -1,3 +1,54 @@
 h1 {
     font-size: 40px;
 }
+
+.weekly-container {
+    display: flex;
+    gap: 265px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header p {
+    font-size: 30px;
+}
+
+.sidenav {
+    background-color: #111;
+    width: 415px;
+    overflow-x: hidden;
+    margin-bottom: 25px;
+  }
+
+  .sidenav a, .dropdown-btn {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #b48282;
+  }
+
+  .active {
+    background-color: green;
+    color: white;
+  }
+
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+  }
