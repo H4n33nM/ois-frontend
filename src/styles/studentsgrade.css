@@ -20,7 +20,7 @@ h1 {
   /*DROPDOWN MENU GIRLS*/
 .sidenav-g {
     background-color: #FFCDEB;
-    width: 415px;
+    width: 596px;
     overflow-x: hidden;
     margin-bottom: 25px;
   }
@@ -59,10 +59,15 @@ h1 {
     color: #F84352;
   }
 
+  .dropdown-container embed {
+    width: 596px;
+   height: 561px;
+  }
+
   /*DROPDOWN MENU BOYS*/
 .sidenav-b {
   background-color: #CDEAFF;
-  width: 415px;
+  width: 596px;
   overflow-x: hidden;
   margin-bottom: 25px;
 }
