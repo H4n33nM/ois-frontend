@@ -111,3 +111,71 @@ h1 {
 }
 
  /*DROPDOWN MENU DEFAULT*/
+.grade-container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 330px;
+  margin-bottom: 300px;
+}
+
+.sidenav {
+  background-color: #FFC0C5;
+  width: 972px;
+  overflow-x: hidden;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #F84352;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #F84352;
+}
+
+.active {
+  background-color: #F84352;
+  color: white;
+}
+
+.dropdown-container-pdf-2 {
+  display: none;
+}
+
+.dropdown-container-pdf-2 embed {
+  width: 972px;
+  height: 639px;
+}
+
+/*EXAM MATERIALS*/
+.materials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 535px);
+  grid-gap: 95px;
+  margin: 0px 35px 30px;
+}
+
+.materials-container button {
+  width: 500px;
+  height: 50px;
+  font-size: 22px;
+  color: #F84352;
+  background-color: #FFC0C5;
+  border: none;
+  cursor: pointer;
+}
+
+.materials-container button:hover {
+  color: #ffffff;
+  background-color: #F84352;
+}
