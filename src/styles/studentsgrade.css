@@ -23,46 +23,46 @@ h1 {
     width: 596px;
     overflow-x: hidden;
     margin-bottom: 25px;
-  }
+}
 
-  .sidenav-g a, .dropdown-btn-g {
-    padding: 16px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #FF71C7;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-  }
+.sidenav-g a, .dropdown-btn-g {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FF71C7;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
 
-  .sidenav-g a:hover {
-    color: #f1f1f1;
-    background-color: #F84352;
-  }
+.sidenav-g a:hover {
+  color: #f1f1f1;
+  background-color: #F84352;
+}
+  
+.activeg {
+  background-color: #FF71C7;
+  color: white;
+}
 
-  .activeg {
-    background-color: #FF71C7;
-    color: white;
-  }
+.dropdown-container { 
+  display: none;
+  background-color: #FFC0C5;
+}
 
-  .dropdown-container {
-    display: none;
-    background-color: #FFC0C5;
-  }
+.dropdown-container a {
+  font-size: 20px;
+  color: #F84352;
+}
 
-  .dropdown-container a {
-    font-size: 20px;
-    color: #F84352;
-  }
-
-  .dropdown-container embed {
+.dropdown-container-pdf embed {
     width: 596px;
-   height: 561px;
-  }
+    height: 561px;
+}
 
   /*DROPDOWN MENU BOYS*/
 .sidenav-b {
@@ -99,6 +99,10 @@ h1 {
 .dropdown-container {
   display: none;
   background-color: #FFC0C5;
+}
+
+.dropdown-container-pdf {
+  display: none;
 }
 
 .dropdown-container a {
