@@ -2,7 +2,7 @@ h1 {
     font-size: 40px;
 }
 
-.weekly-container {
+.grade-container {
     display: flex;
     gap: 265px;
 }
