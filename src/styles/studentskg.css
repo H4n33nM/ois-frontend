@@ -265,6 +265,7 @@ h1 {
   font-size: 40px;
 }
 
+/*WEEKLY REPORT*/
 .weekly-menu {
   width: 250px;
   overflow-x: hidden;
@@ -349,4 +350,86 @@ h1 {
 .menu-content embed {
   width: 650px;
   height: 800px;
+}
+
+/*SUPPLEMENTARY BOOKS*/
+.supp-books {
+  width: 650px;
+  overflow-x: hidden;
+  margin-bottom: 25px;
+}
+
+.supp-books a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #2FC362;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.supp-books a:hover {
+  color: #f1f1f1;
+  background-color: #2FC362;
+}
+
+.menu-content-0 {
+  display: none;
+}
+
+.menu-content-1 img, .menu-content-2 img, .menu-content-3 img, .menu-content-4 img {
+  width: 40px;
+}
+
+.menu-content-1, .menu-content-2, .menu-content-3, .menu-content-4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 55px;
+  font-size: 20px;
+}
+
+.menu-content-1, .menu-content-1 a{
+  color: #C32F2F;
+  background-color: #FFADAD;
+}
+
+.menu-content-1:hover, .menu-content-1 a:hover{
+  color: #ffffff;
+  background-color: #f17474;
+}
+
+.menu-content-2, .menu-content-2 a{
+  color: #2F7CC3;
+  background-color: #ADD3FF;
+}
+
+.menu-content-2:hover, .menu-content-2 a:hover{
+  color: #ffffff;
+  background-color: #68a4dc;
+}
+
+.menu-content-3, .menu-content-3 a{
+  color: #5AC93E;
+  background-color: #AFFF9B;
+}
+
+.menu-content-3:hover, .menu-content-3 a:hover{
+  color: #ffffff;
+  background-color: #7fde67;
+}
+
+.menu-content-4, .menu-content-4 a{
+  color: #C9C43E;
+  background-color: #FFFB9B;
+}
+
+.menu-content-4:hover, .menu-content-4 a:hover{
+  color: #ffffff;
+  background-color: #e7e361;
 }
