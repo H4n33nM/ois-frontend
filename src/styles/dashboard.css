@@ -1,11 +1,17 @@
-.announcements {
-    color: #ffffff;
-    background-color: blue;
+/* Wrapper for both embeds */
+.embeds-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+    align-items: start;
+    margin: 25px 50px;
+    max-width: 1400px;
 }
 
-.calendar {
-    position: relative;
-    bottom: 116px;
-    left: 1070px;
-    background-color: aqua;
+/* Heading styling */
+.announcements h1,
+.calendar h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
