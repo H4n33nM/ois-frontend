@@ -239,7 +239,6 @@ footer p {
   line-height: 1.5;
 }
 
-/* Responsive layout */
 @media (max-width: 800px) {
   footer {
     flex-direction: column;

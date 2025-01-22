@@ -1,0 +1,281 @@
+/*MAIN KG LAYOUT*/
+html {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 80ch;
+  width: 100%;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* header 1 */
+.logos {
+background-color: #ffffff;
+}
+
+.logos p {
+font-weight: 700;
+font-size: 22px;
+}
+
+#ataa-logo {
+  position: relative;
+  bottom: 30px;
+  left: 965px;
+  margin-right: 5px;
+}
+
+#ois-logo {
+  position: relative;
+  top: 15px;
+  right: 75px;
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}
+
+.main-header {
+  width: 100vw;
+  position: relative;
+  margin-top: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.main-header a {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px;
+  margin: 0px 50px 10px 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.main-header a:hover,
+.main-header a:focus {
+  color: #01ACFE;
+}
+
+.main-header a img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/*dropdown menus*/
+.dropbtn {
+padding: 10px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #F0FAFF;
+min-width: 160px;
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #d6f1ff;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/*header 2*/
+.contact-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+width: 100vw;
+height: 50px;
+position: fixed;
+z-index: 1000;
+top: 0px;
+left: 0px;
+background-image: url("/src/images/decoration.png");
+background-color: #2FC362;
+color: #ffffff;
+}
+
+.contact-header i {
+font-size: 16px;
+white-space: nowrap;
+margin: 0 auto;
+flex: 1;
+text-align: center;
+}
+
+.phone-num {
+position: absolute;
+left: 30px;
+top: 10px;
+}
+
+.mail {
+position: absolute;
+right: 50px;
+top: 10px;
+}
+
+.contact-header .phone-num p,
+.contact-header .mail p {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.phone-num,
+.mail {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+/*body*/
+.body-container {
+flex: 1;
+margin-top: 0px;
+margin-left: 40px;
+}
+
+#banner-image {
+position: relative;
+top: 0px;
+right: 40px;
+width: 100vw;
+height: 355px;
+box-shadow: 0px -1.5px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*footer*/
+footer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+width: 100vw;
+height: 475px;
+box-sizing: border-box;
+background-color: #2FC362;
+padding: 20px;
+box-sizing: border-box;
+}
+
+footer p {
+line-height: 1.2;
+font-size: 32px;
+color: #ffffff;
+text-align: left;
+} 
+
+.socials {
+margin: 100px;
+}
+
+.socials p {
+text-align: left;
+}
+
+#credits {
+margin-top: 20px;
+font-size: 14px;
+}
+
+
+.school-info {
+position: absolute;
+left: 1450px;
+padding: 0px 25px;
+}
+
+.school-info img {
+width: 35px;
+margin-right: 10px;
+}
+
+.socials,
+.school-info {
+flex: 1;
+margin: 30px;
+}
+
+#title {
+line-height: 0.7;
+font-size: 32px;
+color: #ffffff;
+text-align: left;
+margin-bottom: 10px;
+}
+
+#description {
+font-size: 19px;
+text-align: justify;
+line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+footer {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.socials {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.school-info {
+  position: static;
+  margin: 0;
+  text-align: center;
+}
+}
+
+/*KG PAGES*/
+h1 {
+    font-size: 40px;
+}
+
+.grade-container {
+    display: flex;
+    gap: 265px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header p {
+    font-size: 30px;
+}
