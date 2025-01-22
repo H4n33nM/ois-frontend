@@ -262,20 +262,60 @@ footer {
 
 /*KG PAGES*/
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.grade-container {
-    display: flex;
-    gap: 265px;
+.weekly-menu {
+  width: 250px;
+  overflow-x: hidden;
+  margin-bottom: 25px;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.kg1 {
+  margin-top: 25px;
 }
 
-.header p {
-    font-size: 30px;
+.kg1, .kg2, .kg3 {
+  background-color: #ADFFC9;
+  margin-bottom: 60px;
+}
+
+.weekly-menu a, .dropdown-btn {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #2FC362;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.weekly-menu a:hover {
+  color: #f1f1f1;
+  background-color: #2FC362;
+}
+
+.dropdown-btn img {
+  width: 40px;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.active {
+  background-color: #7de4a1;
+  color: white;
+}
+
+.menu-content {
+  display: none;
+  background-color: #ADFFC9;
 }
