@@ -165,8 +165,8 @@ h1 {
   margin: 0px 35px 30px;
 }
 
-.materials-container button {
-  width: 500px;
+.materials-button {
+  width: 530px;
   height: 50px;
   font-size: 22px;
   color: #F84352;
@@ -175,7 +175,55 @@ h1 {
   cursor: pointer;
 }
 
-.materials-container button:hover {
+.materials-button:hover {
   color: #ffffff;
   background-color: #F84352;
+}
+
+.materials-pdf embed {
+  width: 530px;
+  height: 350px;
+}
+
+.materials-pdf {
+  display: none;
+}
+
+.active-m {
+  color: #ffffff;
+  background-color: #F84352;
+}
+
+.materials-button2 {
+  width: 530px;
+  height: 50px;
+  font-size: 22px;
+  color: #dd303e;
+  background-color: #ff7d88;
+  border: none;
+  cursor: pointer;
+}
+
+.materials-button2:hover {
+  color: #ffffff;
+  background-color: #dd303e;
+}
+
+.materials-subbutton {
+  display: none;
+}
+
+.materials-pdf2 embed {
+  width: 530px;
+  height: 350px;
+}
+
+
+.materials-pdf2 {
+  display: none;
+}
+
+.active-m2 {
+  color: #ffffff;
+  background-color: #dd303e;
 }
