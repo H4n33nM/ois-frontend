@@ -266,59 +266,59 @@ h1 {
 }
 
 /*WEEKLY REPORT*/
-.weekly-menu {
-  width: 250px;
-  overflow-x: hidden;
-  margin-bottom: 25px;
+.weekly-report-container {
+  display: grid;
+  grid-template-columns: repeat(3, 535px);
+  grid-gap: 95px;
+  margin: 0px 35px 30px;
 }
 
-.kg1 {
-  margin-top: 25px;
-}
-
-.kg1, .kg2, .kg3 {
-  background-color: #ADFFC9;
-  margin-bottom: 60px;
-}
-
-.weekly-menu a, .dropdown-btn {
-  padding: 16px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #2FC362;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-.weekly-menu a:hover {
-  color: #f1f1f1;
-  background-color: #2FC362;
-}
-
-.dropdown-btn img {
-  width: 40px;
-}
-
-.dropdown-btn {
+.kg-wr-button {
   display: flex;
   align-items: center;
   gap: 20px;
   font-size: 22px;
+  width: 530px;
+  height: 50px;
+  color: #2FC362;
+  background-color: #ADFFC9;
+  border: none;
+  cursor: pointer;
 }
 
-.active {
+.kg-wr-button img {
+  width: 40px;
+}
+
+.kg-wr-button:hover {
   background-color: #7de4a1;
   color: white;
 }
 
-.menu-content {
+.week-button {
+  width: 530px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  text-indent: 65px;
+  font-size: 20px;
+  color: #2ba455;
+  background-color: #7de4a1;
+}
+
+.week-button:hover {
+  color: #ffffff;
+  background-color: #5fc783;
+}
+
+.weeks-list {
   display: none;
-  background-color: #ADFFC9;
+}
+
+.active-w {
+  background-color: #7de4a1;
+  color: #228946;
 }
 
 /*KG MATERIALS*/
@@ -389,6 +389,50 @@ h1 {
 .supp-books a:hover {
   color: #f1f1f1;
   background-color: #2FC362;
+}
+
+.kg1 {
+  margin-top: 25px;
+}
+
+.kg1, .kg2, .kg3 {
+  background-color: #ADFFC9;
+  margin-bottom: 60px;
+}
+
+.dropdown-btn {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #2FC362;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn img {
+  width: 40px;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.active {
+  background-color: #7de4a1;
+  color: white;
+}
+
+.menu-content {
+  display: none;
+  background-color: #ADFFC9;
 }
 
 .menu-content-0 {
